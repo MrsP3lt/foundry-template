@@ -159,7 +159,17 @@ targets = 'default'
 # targets = [ 'assert' ]
 
 # Etherscan API key
-etherscan_api_key = "${ETHERSCAN_API_KEY}" 
+[etherscan]
+mainnet = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "mainnet" }
+optimism = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "optimism" }
+fantom = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "fantom" } 
+arbitrum = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "arbitrum" }
+bsc = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "bsc" }
+moonriver = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "moonriver" }
+gnosis = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "gnosis" }
+Avalanche ={ key = "${ETHERSCAN_MAINNET_KEY}", chain = "avalanche" }
+polygon = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "polygon" }
+celo ={ key = "${ETHERSCAN_MAINNET_KEY}", chain = "celo" }
 # Only run test functions matching the specified regex pattern
 #test_pattern = None
 # Only run test functions that do not match the specified regex pattern
