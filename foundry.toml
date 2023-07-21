@@ -160,16 +160,17 @@ targets = 'default'
 
 # Etherscan API key
 [etherscan]
-mainnet = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "mainnet" }
-optimism = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "optimism" }
-fantom = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "fantom" } 
-arbitrum = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "arbitrum" }
-bsc = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "bsc" }
-moonriver = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "moonriver" }
-gnosis = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "gnosis" }
-Avalanche ={ key = "${ETHERSCAN_MAINNET_KEY}", chain = "avalanche" }
-polygon = { key = "${ETHERSCAN_MAINNET_KEY}", chain = "polygon" }
-celo ={ key = "${ETHERSCAN_MAINNET_KEY}", chain = "celo" }
+mainnet = { key = "${ETHERSCAN_API_KEY}", chain = "mainnet" }
+optimism = { key = "${ETHERSCAN_API_KEY}", chain = "optimism" }
+fantom = { key = "${ETHERSCAN_API_KEY}", chain = "fantom" } 
+arbitrum = { key = "${ETHERSCAN_API_KEY}", chain = "arbitrum" }
+bsc = { key = "${ETHERSCAN_API_KEY}", chain = "bsc", url = "https://api.bscscan.com/" }
+moonriver = { key = "${ETHERSCAN_API_KEY}", chain = "moonriver" }
+gnosis = { key = "${ETHERSCAN_API_KEY}", chain = "gnosis" }
+Avalanche ={ key = "${ETHERSCAN_API_KEY}", chain = "avalanche" }
+polygon = { key = "${ETHERSCAN_API_KEY}", chain = "polygon" }
+celo ={ key = "${ETHERSCAN_API_KEY}", chain = "celo" }
+# unknown_chain = { key = "ABCDEFG", url = "<etherscan api url for this chain>" }
 # Only run test functions matching the specified regex pattern
 #test_pattern = None
 # Only run test functions that do not match the specified regex pattern
