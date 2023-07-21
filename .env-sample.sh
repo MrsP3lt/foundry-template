@@ -25,3 +25,6 @@ export ETHERSCAN_API_KEY=''
 
 # Foundry Using with cast
 export ETH_RPC_URL=${mainnet}
+
+# Cast wont work otherwise
+export CHAIN=mainnet
