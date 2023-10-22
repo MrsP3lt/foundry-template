@@ -13,6 +13,7 @@ export Avalanche="https://rpc.ankr.com/avalanche"
 export polygon="https://rpc.ankr.com/polygon"
 export celo="https://rpc.ankr.com/celo"
 export anvil="https://127.0.0.1:8545"
+export sepolia="https://rpc.ankr.com/eth_sepolia"
 
 # target contract
 export target=
