@@ -1,7 +1,7 @@
 [profile.default]
 # The Solc instance to use if any.
 # This takes precedence over `auto_detect_solc`, if a version is set then this overrides auto-detection.
-solc-version = "0.8.21"
+solc-version = "0.8.22"
 # The source directory
 src = 'src'
 # The test directory
