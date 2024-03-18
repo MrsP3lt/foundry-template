@@ -50,6 +50,11 @@ optimizer_runs = 200
 verbosity = 1
 # A list of ignored solc error codes
 ignored_error_codes = [1878, 5574]
+# Ignore warnings from a file
+ignored_warnings_from = [
+    "path/to/warnings/file1.sol",
+    "path/to/warnings/file2.sol",
+]
 
 deny_warnings = true
 
