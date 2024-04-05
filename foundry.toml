@@ -31,7 +31,7 @@ include_paths = []
 # Whether to ignore the cache
 force = false
 # The EVM version by hardfork name
-evm_version = 'shanghai'
+evm_version = 'cancun'
 # A list of contracts to output gas reports for
 gas_reports = ['*']
 # A list of contracts to ignore for gas reports
