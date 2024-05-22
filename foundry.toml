@@ -1,7 +1,7 @@
 [profile.default]
 # The Solc instance to use if any.
 # This takes precedence over `auto_detect_solc`, if a version is set then this overrides auto-detection.
-solc-version = "0.8.25"
+solc-version = "0.8.26"
 # The source directory
 src = 'src'
 # The test directory
@@ -106,7 +106,7 @@ names = false
 # Print the sizes of the compiled contracts
 sizes = false
 # Whether or not to use the Yul intermediate representation compilation pipeline
-via_ir = false
+via_ir = true
 # Enables or disables RPC caching when forking
 
 no_rpc_rate_limit = false
