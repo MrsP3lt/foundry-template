@@ -5,7 +5,6 @@ import "forge-std/Test.sol";
 import "src/Counter.sol";
 
 contract CounterTest is Test {
-
     Counter public counter;
 
     function setUp() public {
@@ -22,5 +21,4 @@ contract CounterTest is Test {
         counter.setNumber(x);
         assertEq(counter.number(), x);
     }
-
 }
