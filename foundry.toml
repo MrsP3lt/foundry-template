@@ -21,7 +21,10 @@ out = 'out'
 libs = ['lib']
 
 # A list of remappings
-remappings = ['forge-std/=lib/forge-std/src/', 'solmate/=lib/solmate/src/']
+remappings = [
+    'solmate/=lib/solmate/src/',
+    '@forge-std-1.8.2=dependencies/forge-std-1.8.2/src',
+]
 
 # Whether to autodetect remappings by scanning the `libs` folders recursively
 auto_detect_remappings = true
@@ -365,3 +368,6 @@ book = 'book.toml'
 ignore = []
 
 ##################################################################################
+
+[dependencies]
+forge-std = { version = "1.8.2", url = "" }
