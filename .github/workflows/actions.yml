@@ -14,9 +14,6 @@ jobs:
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
 
-      - name: Install dependencies
-        run: forge soldeer install
-
       - name: Check formatting
         run: forge fmt --check
 
