@@ -21,10 +21,7 @@ out = 'out'
 libs = ['lib']
 
 # A list of remappings
-remappings = [
-    'solmate/=lib/solmate/src/',
-    '@forge-std-1.8.2=dependencies/forge-std-1.8.2/src',
-]
+remappings = ['solmate/=lib/solmate/src/', 'forge-std/=lib/forge-std/src']
 
 # Whether to autodetect remappings by scanning the `libs` folders recursively
 auto_detect_remappings = true
